@@ -9,6 +9,8 @@
     top: 0;
     z-index: 999;
     font-family: 'Montserrat';
+    text-transform: uppercase;
+    margin-top: 20px;
   }
   
   .navbar-container {
@@ -28,11 +30,6 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
-  }
-  
-  .fa-home {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
   }
   
   .nav-menu {
@@ -120,6 +117,7 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
+      margin-top: -20px;
     }
   
     .menu-icon {
@@ -156,5 +154,14 @@
       background:#265931;
       color: #265931;
       transition: 250ms;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar-logo {
+      cursor: pointer;
+      margin-left: 0;
+      margin-top: -30px;
+      align-items: center;
     }
   }

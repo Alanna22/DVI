@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
+import Logo from './img/logoJJ.png';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -12,7 +13,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                        JUSJAX<i className='fa fa-home' />
+                        <img src={Logo}></img>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

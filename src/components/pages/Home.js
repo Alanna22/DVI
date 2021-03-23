@@ -1,12 +1,14 @@
 import React from 'react';
-import '../../App.css';
-import { heroSection } from '../heroSection';
+import HeroSection from '../HeroSection';
+import EmailForm from '../EmailForm';
 
 function Home() {
     return (
         <>
 
-        <heroSection />
+        <HeroSection />
+
+        <EmailForm />
 
         </>
     )
