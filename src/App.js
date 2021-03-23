@@ -1,9 +1,20 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
+import Navbar from './components/navbar';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/pages/Home';
 
 function App() {
   return (
-    <h1>HIYA ARIQ</h1>
+    <>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' exact component = {Home} />
+      </Switch>
+      </Router>
+    </>
+    
   );
 }
 
