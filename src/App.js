@@ -7,7 +7,7 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Switch>
         <Route path='/' exact component= {Home} />
