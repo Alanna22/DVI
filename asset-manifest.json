@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/DVI/static/css/main.6fac807a.chunk.css",
-    "main.js": "/DVI/static/js/main.e17ddfa6.chunk.js",
-    "main.js.map": "/DVI/static/js/main.e17ddfa6.chunk.js.map",
+    "main.css": "/DVI/static/css/main.d91ab53a.chunk.css",
+    "main.js": "/DVI/static/js/main.39736d0e.chunk.js",
+    "main.js.map": "/DVI/static/js/main.39736d0e.chunk.js.map",
     "runtime-main.js": "/DVI/static/js/runtime-main.de43ddde.js",
     "runtime-main.js.map": "/DVI/static/js/runtime-main.de43ddde.js.map",
     "static/js/2.9360b54a.chunk.js": "/DVI/static/js/2.9360b54a.chunk.js",
     "static/js/2.9360b54a.chunk.js.map": "/DVI/static/js/2.9360b54a.chunk.js.map",
     "index.html": "/DVI/index.html",
-    "static/css/main.6fac807a.chunk.css.map": "/DVI/static/css/main.6fac807a.chunk.css.map",
+    "static/css/main.d91ab53a.chunk.css.map": "/DVI/static/css/main.d91ab53a.chunk.css.map",
     "static/js/2.9360b54a.chunk.js.LICENSE.txt": "/DVI/static/js/2.9360b54a.chunk.js.LICENSE.txt",
     "static/media/SusieSmith.0fc9d5e0.jpg": "/DVI/static/media/SusieSmith.0fc9d5e0.jpg",
     "static/media/Footer.css": "/DVI/static/media/jusJaxBar.091f1545.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.de43ddde.js",
     "static/js/2.9360b54a.chunk.js",
-    "static/css/main.6fac807a.chunk.css",
-    "static/js/main.e17ddfa6.chunk.js"
+    "static/css/main.d91ab53a.chunk.css",
+    "static/js/main.39736d0e.chunk.js"
   ]
 }
