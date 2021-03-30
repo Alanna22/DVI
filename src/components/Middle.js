@@ -16,12 +16,12 @@ function Middle() {
         
         <div className="middleBG">
             <div class="middleContainer">
-                <div class="row">
-                    <div class="col-6">
+                <div class="middleSection row">
+                    <div class="imageAthlete col-6">
                         <img class="athlete" src={Susie}></img>
                     </div>
                     <div class="text col-6">
-                        <h1>Susie Smith &nbsp; &nbsp; &nbsp; &nbsp;<i class="fab fa-instagram"></i>&nbsp;<i class="fab fa-twitter"></i></h1> 
+                        <h1>Susie Smith &nbsp; &nbsp; &nbsp;<i class="fab fa-instagram"></i>&nbsp;<i class="fab fa-twitter"></i></h1> 
                         <h4>Meet our newest athlete </h4>
 
                         <p>A big welcome to Susie who is new to our team of parkour athletes. Originally from Edinburgh Susie found her love of Parkour at her local training center. <span class="bold">Come along and see her skills this summers festivals.</span></p>

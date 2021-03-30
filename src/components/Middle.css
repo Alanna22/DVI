@@ -73,4 +73,126 @@ li img:hover{
 }
 
 
+@media screen and (max-width: 900px){
+    .athlete {
+        height: 500px;
+        width: 330px;
+        margin: -20px 0 0 50px;
+
+    }
+
+    li img {
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 770px){
+
+    .athlete {
+        height: 400px;
+        width: 500px;
+        object-fit: cover;
+
+    }
+
+    li img {
+        height: 70px;
+
+    }
+
+    .middleSection {
+        display: block;
+
+    }
+
+    .middleBG {
+        background-color: #E7E2DB;
+        height: 800px;
+        width: 100%;
+        margin: 200px 0;
+        --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+    }
+
+    .text {
+        width:100%;
+        padding: 50px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    li img {
+        height: 60px;
+        margin-right: 35px;
+    }
+
+
+    .athlete {
+        height: 300px;
+        width: 330px; 
+    }
+}
+
+@media screen and (max-width: 455px){
+    li img {
+        height: 50px;
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    li img {
+        height: 50px;
+        margin-right: 25px;
+    }
+    .athlete {
+        height: 300px;
+        width: 315px; 
+    }
+}
+
+@media screen and (max-width: 380px){
+    li img {
+        height: 50px;
+        margin-right: 15px;
+    }
+
+
+    .athlete {
+        height: 300px;
+        width: 280px; 
+    }
+}
+
+@media screen and (max-width: 350px){
+    li img {
+        height: 45px;
+        margin-right: 22px;
+    }
+
+
+    .athlete {
+        height: 300px;
+        width: 250px; 
+    }
+}
+
+@media screen and (max-width: 320px){
+    li img {
+        height: 45px;
+        margin-right: 15px;
+    }
+
+
+    .athlete {
+        height: 300px;
+        width: 220px; 
+    }
+}
+
 

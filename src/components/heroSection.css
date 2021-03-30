@@ -31,9 +31,13 @@
 
 @media screen and (max-width: 500px) {
     .hero-container h1 {
-        color: #fff;
         font-size: 5.6em;
-        position: relative;
         margin: 180px 50px 100px 150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero-container h1 {
+        font-size: 4em;
     }
 }
